@@ -1,0 +1,9 @@
+body {
+  font-family: sans-serif;
+  background: rgba(77, 59, 61, 0.733);
+}
+.siteContainer{
+  width: 1400px;
+  margin: 0 auto;
+  background: white;
+}

@@ -1,0 +1,84 @@
+.headerContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 200px;
+}
+
+.navContainer{
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 27px;
+  line-height: 100px;
+}
+.nav{
+  cursor: pointer;
+  transition: 0;
+  padding: 0 13px;
+  color: #757575;
+}
+.nav:hover{
+  background-color: #757575;
+  color: white;
+	transition: 2s;
+}
+.socialContainer{
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 40px;
+  padding-right: 15px;
+  line-height: 100px;
+}
+.fa:hover{
+  color: #757575;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.footerContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-top:1px solid #ccc;
+  height: 200px;
+}
+.footerIconContainer{
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 50px;
+  line-height: 200px;
+}
+.footerSocialIcon{
+
+}
+.contactContainer{
+
+}
+.contactHeader{
+  font-weight: normal;
+}
+.contactTitle{
+  color:#757575;
+}
+.link{
+  color: #757575;
+  transition: 0;
+}
+.link:hover{
+  color: black;
+  transition: 2s;
+}
+.footerLogoContainer{
+
+}
+.footerLogo{
+  width: 300px;
+  padding-top: 20px;
+}
