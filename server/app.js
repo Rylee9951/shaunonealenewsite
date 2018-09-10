@@ -1,11 +1,14 @@
-var express = require('express')
-var path = require('path')
-// var favicon = require('serve-favicon')
-var logger = require('morgan')
-var cookieParser = require('cookie-parser')
-var bodyParser = require('body-parser')
+import express from 'express'
+import path from 'path'
+import logger from 'morgan'
+import cookieParser from 'cookie-parser'
+import bodyParser from 'body-parser'
+import config from 'config'
+import routes from './routes'
+import authRoutes from './routes/auth'
+import protectedRoutes from './routes/user'
+import jwt from 'express-jwt'
 
-var routes = require('./routes/index')
 
 var app = express()
 
@@ -18,6 +21,8 @@ app.use(cookieParser())
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.use('/api', routes)
+app.use('/auth', authRoutes)
+app.use('/auth', jwt({secret: config.get('jwt.secret')}), protectedRoutes)
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

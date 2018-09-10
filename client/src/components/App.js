@@ -1,5 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component} from 'react'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import AuthRoute from './AuthRoute'
 import '../styles/app.css'
 import store from '../store'
 import {Provider} from 'react-redux'
@@ -10,6 +11,8 @@ import Header from './Header'
 import Footer from './Footer'
 import Home from './Home'
 import BookTour from './BookTour'
+import Login from './Login'
+import Forms from './Forms'
 
 class App extends Component {
   render () {
@@ -19,8 +22,10 @@ class App extends Component {
           <div className='siteContainer'>
             <Header />
             <Switch>
-              <Route exact path='/' component={Home}/>
-              <Route path='/booktour' component={BookTour}/>
+              <Route exact path='/' component={Home} />
+              <Route path='/booktour' component={BookTour} />
+              <Route path='/login' component={Login} />
+              <AuthRoute path='/forms' component={Forms} />
             </Switch>
             <Footer />
           </div>

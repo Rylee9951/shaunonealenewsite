@@ -1,0 +1,50 @@
+#eventContainer{
+  display: flex;
+}
+p{
+  margin:0;
+  margin-bottom: 8px;
+}
+.eventBook{
+  width: 600px;
+}
+.eventsColumn{
+  width: 600px;
+  background: #ccc;
+}
+.eventHeader{
+  text-align: center;
+  text-transform: uppercase;
+}
+.headline{
+  font-size: 35px;
+}
+.bookTour{
+  font-size: 30px;
+  margin: 0;
+}
+.events{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-between;
+  height: 450px;
+  margin: auto;
+  margin-top: 20px;
+}
+.event{
+  width: 200px;
+  height: 150px;
+  text-align: center;
+}
+.eventDate{
+  color: #D59E44;
+  font-size: 23px;
+}
+.eventTitle{
+  font-size: 27px;
+}
+.eventLocation{
+  font-size: 18px;
+}
