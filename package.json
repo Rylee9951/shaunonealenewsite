@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "concurrently": "^3.6.1",
+    "prop-types": "^15.6.2",
+    "react-transition-group": "^2.5.0",
     "standard": "^11.0.1"
   },
   "standard": {
