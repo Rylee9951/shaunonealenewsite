@@ -16,3 +16,19 @@ img{
 .carousel .carousel-main img{
   top:-9920px;
 }
+.aboutContainer { 
+  width: 900px;
+  height: 400px;
+  overflow: scroll;
+  text-align: justify;
+  margin: auto;
+  padding: 15px;
+}
+.aboutTitle{
+  text-align: center;
+  text-decoration: underline;
+}
+.aboutParaContainer {
+  font-size: 20px;
+
+}

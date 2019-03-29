@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import CarouselImage from 'react-image-carousel'
-import MainPic from '../images/image9.png'
-import Logo from '../images/shaunlogo.png' 
-import "font-awesome-sass-loader";
+import "font-awesome-sass-loader"
 import "../../node_modules/react-image-carousel/lib/css/main.min.css"
 import '../styles/home.css'
+import MainPic from '../images/image9.png'
+import Logo from '../images/shaunlogo.png' 
+
 
 let images = [
   MainPic,
