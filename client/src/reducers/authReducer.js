@@ -10,7 +10,7 @@ export default function (state = initialState, action) {
     case 'LOGIN_FAILURE' :
       return {...state, username: '', isAuthenticated: false}
     case 'LOGOUT' :
-      return {...state, useername: '', isAuthenticated: false}
+      return {...state, username: '', isAuthenticated: false}
     default:
       return state
   }
