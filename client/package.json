@@ -7,7 +7,7 @@
     "font-awesome": "^4.7.0",
     "font-awesome-sass-loader": "^2.0.1",
     "google-map-react": "^1.0.6",
-    "jsonwebtoken": "^8.3.0",
+    "jsonwebtoken": "^9.0.0",
     "node-sass": "^4.9.3",
     "normalize.css": "^8.0.0",
     "npm": "^6.4.0",
